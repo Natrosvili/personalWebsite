@@ -1,0 +1,168 @@
+:root {
+    --textColor: #11999E;
+}
+
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#name {
+    color: #66BFBF;
+    line-height: 2;
+    margin: 50px auto 0 auto; 
+    font-size: 90px;
+}
+
+hr {
+    width: 4%;
+    border: 6px dotted black;
+    border-bottom: none;
+    color: #EAF6F6;
+    margin: 100px auto;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+
+}
+
+.top {
+    background-color: #EAF6F6;
+    padding: 20px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.cloud1 {
+    position: relative;
+    left: 400px;
+}
+
+.cloud2 {
+    position: absolute;
+    left: 300px;
+}
+
+.myPhoto {
+    width: 300px;
+}
+
+/* middle Container */
+
+.middle {
+    margin: 100px;
+}
+
+.intro {
+    width: 30%;
+    margin: 0 auto 20px auto;
+
+}
+
+.skillRow {
+    width: 50%;
+    margin: 100px auto;
+    line-height: 2;
+}
+
+.leftAlign {
+    text-align: left;
+}
+
+
+.photoOfPython {
+    float: left;
+    width: 25%;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+}
+
+.photoOfHtml {
+    width: 29%;
+    border-radius: 50%;
+    float: right;
+    margin-left: 30px;
+}
+
+.photoOfCss {
+    float: left;
+    width: 29%;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+}
+
+.photoOfJavaScript {
+    padding-top: 40px;
+    width: 40%;
+    float: right;
+    margin-left: 30px;
+}
+
+.photoOfSass {
+    float: left;
+    width: 29%;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+}
+
+.photoOfjQuery {
+    padding-top: 50px;
+    width: 40%;
+    float: right;
+    margin-left: 30px;
+}
+
+.rightAlign {
+    text-align: left;
+    position: relative;
+    top: 20px;
+}
+
+
+h3 {
+    color: var(--textColor);
+}
+
+/* Bottom Container */
+
+.bottom {
+    background-color: var(--textColor);
+    margin-top: 10px;
+    height: 100px;
+    padding: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: var(--textColor);
+    color: white;
+}
+
+.btn:hover {
+    background-color: white;
+    color: var(--textColor);
+    border: 3px solid var(--textColor);
+}
+
+.footer {
+    text-decoration: none;
+    margin: 10px 20px;
+}
+
+.footer:hover {
+    text-decoration: underline dotted 2px gray;
+}
+
+
