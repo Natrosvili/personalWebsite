@@ -158,6 +158,7 @@ h3 {
 .footer {
     text-decoration: none;
     margin: 10px 20px;
+    color: white;
 }
 
 .footer:hover {
