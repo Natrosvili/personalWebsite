@@ -1,0 +1,335 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: sans-serif;
+  max-width: 100;
+  width: 100vw;
+  height: 100vh;
+}
+
+@-webkit-keyframes myName {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes myName {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#name {
+  color: #11999E;
+  line-height: 2;
+  text-shadow: 0 0 8px lightseagreen, 0 0 8px lightpink;
+  margin: 50px auto 0 auto;
+  font-size: 90px;
+  -webkit-animation-name: myName;
+          animation-name: myName;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+hr {
+  width: 10%;
+  border: 6px dotted black;
+  border-bottom: none;
+  margin: 100px auto;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #11999E;
+  font-weight: normal;
+}
+
+.top {
+  background-color: #EAF6F6;
+  padding: 40px 20px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+@-webkit-keyframes cloud1 {
+  0% {
+    left: 600px;
+    opacity: 0.1;
+  }
+  100% {
+    left: 400px;
+    opacity: 1;
+  }
+}
+
+@keyframes cloud1 {
+  0% {
+    left: 600px;
+    opacity: 0.1;
+  }
+  100% {
+    left: 400px;
+    opacity: 1;
+  }
+}
+.cloud1 {
+  position: relative;
+  left: 400px;
+  -webkit-animation-name: cloud1;
+          animation-name: cloud1;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+@-webkit-keyframes cloud2 {
+  0% {
+    left: 10px;
+    opacity: 0.1;
+  }
+  100% {
+    left: 300px;
+    opacity: 1;
+  }
+}
+
+@keyframes cloud2 {
+  0% {
+    left: 10px;
+    opacity: 0.1;
+  }
+  100% {
+    left: 300px;
+    opacity: 1;
+  }
+}
+.cloud2 {
+  position: absolute;
+  left: 300px;
+  -webkit-animation-name: cloud2;
+          animation-name: cloud2;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+.myPhoto {
+  width: 300px;
+}
+
+/* middle Container */
+.navbar {
+  padding: 8px;
+  margin-bottom: 50px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #66bfbf;
+  border-radius: 0 0 10px 15px;
+  z-index: 1;
+}
+
+.navList {
+  line-height: 2;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.navList a {
+  color: #66bfbf;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.middle {
+  margin: 0 100px 50px 100px;
+}
+
+.intro {
+  width: 30%;
+  margin: 0 auto 20px auto;
+}
+
+.skillRow {
+  width: 50%;
+  margin: 100px auto;
+  line-height: 2;
+}
+
+.leftAlign {
+  text-align: left;
+}
+
+.photoOfPython {
+  float: left;
+  width: 25%;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+}
+
+.photoOfHtml {
+  width: 29%;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+}
+
+.photoOfCss {
+  float: left;
+  width: 29%;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+}
+
+.photoOfJavaScript {
+  padding-top: 40px;
+  width: 40%;
+  float: right;
+  margin-left: 30px;
+}
+
+.photoOfSass {
+  float: left;
+  width: 29%;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+}
+
+.photoOfjQuery {
+  padding-top: 50px;
+  width: 40%;
+  float: right;
+  margin-left: 30px;
+}
+
+.rightAlign {
+  text-align: left;
+  position: relative;
+  top: 20px;
+}
+
+h3 {
+  color: #11999E;
+}
+
+/* Bottom Container */
+.bottom {
+  background-color: #11999E;
+  margin-top: 10px;
+  height: 100px;
+  padding: 20px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #11999E;
+  color: white;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #11999E;
+  border: 3px solid #11999E;
+}
+
+.footer {
+  text-decoration: none;
+  margin: 10px 20px;
+  color: white;
+}
+
+.footer:hover {
+  -webkit-text-decoration: underline dotted 2px gray;
+          text-decoration: underline dotted 2px gray;
+}
+
+@media (max-width: 500px) {
+  #name {
+    margin: 50px auto 0 auto;
+    font-size: 45px;
+  }
+  hr {
+    width: 10%;
+    border-bottom: none;
+    color: #EAF6F6;
+    margin: 100px auto;
+  }
+  .mountain {
+    max-width: 400px;
+  }
+  h2 {
+    font-size: 28px;
+    color: #66BFBF;
+  }
+  .cloud1 {
+    top: 20px;
+    left: 160px;
+    width: 150px;
+  }
+  .cloud2 {
+    position: absolute;
+    left: 15px;
+  }
+  .myPhoto {
+    width: 230px;
+  }
+  .middle {
+    margin: 80px;
+  }
+  .intro {
+    width: 60%;
+  }
+  .skillRow {
+    width: 40%;
+    margin-left: 10px;
+  }
+  .photoOfPython {
+    width: 100px;
+  }
+  .leftAlign {
+    width: 300px;
+  }
+  .photoOfHtml {
+    width: 100px;
+    position: relative;
+    left: 150px;
+    top: 80px;
+  }
+  .photoOfCss {
+    width: 100px;
+    margin-bottom: 0;
+  }
+  .photoOfJavaScript {
+    width: 150px;
+    position: relative;
+    left: 200px;
+    top: 80px;
+  }
+  .photoOfSass {
+    width: 100px;
+    margin-bottom: 0;
+  }
+  .photoOfjQuery {
+    width: 150px;
+    position: relative;
+    left: 170px;
+    top: 50px;
+  }
+  .rightAlign {
+    width: 300px;
+  }
+}/*# sourceMappingURL=main.css.map */
